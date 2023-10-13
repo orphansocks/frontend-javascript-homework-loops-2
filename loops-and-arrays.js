@@ -5,9 +5,25 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
 for (let i = 0; i < names.length ; i++) {
-    console.log(names[i] + 'je');
+    names[i]= names[i] + 'je';
 }
+
+console.log(names);
+
+// =============================================
+// Welke optie is beter?
+
+
+const namesOption2 = ["Henk", "Piet", "Fred", "Joop"];
+for (let i = 0; i < namesOption2.length ; i++) {
+    const diminutive = namesOption2[i] + 'je';
+    namesOption2[i] = diminutive;
+}
+
+console.log(namesOption2);
+
 
 
 // Verwachtte uitkomsten:
@@ -57,9 +73,8 @@ for (let i = 0; i < numbers.length; i++) {
 
 const squares = [30, 2, 8, 24, 11];
 for (let i = 0; i < squares.length ; i++) {
-    const a = i;
-    const b = squares[i] * squares[i] * squares[i];
-    squares[a] = b;
+    const volume ='Het volume van ' + squares[i] + ' is ' + squares[i] * squares[i] * squares[i];
+    squares[i] = volume;
 }
 console.log(squares);
 
