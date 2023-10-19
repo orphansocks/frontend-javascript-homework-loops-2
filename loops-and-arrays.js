@@ -33,9 +33,6 @@ console.log(namesOption2);
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 
-
-
-
 // ==========================================
 // Opdracht 2
 // Schrijf een script dat ieder EVEN getal in onderstaande array met 2 vermenigvuldigd, en ieder ONEVEN getal met 3
@@ -58,7 +55,6 @@ for (let i = 0; i < numbers.length; i++) {
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
 
-
 // ==========================================
 // Opdracht 3
 // Schrijf een script dat voor de maat van ieder vierkant in onderstaande array, het volume uitrekent.
@@ -66,9 +62,6 @@ for (let i = 0; i < numbers.length; i++) {
 // Vervolgens moet de huidige waarde in de array overschreven worden met: "Het volume van [a] is [b]"
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
-
-
-
 
 
 const squares = [30, 2, 8, 24, 11];
